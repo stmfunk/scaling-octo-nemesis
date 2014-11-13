@@ -52,7 +52,7 @@ public class LineFormat {
      * I've commented out the declaration because I was running 
      * tests on the file-handling methods */
 
-    public static int[] greedyLF (int[] wordLengths){
+    public static int[] greedyLF (int[] wordLengths) {
       int n = wordLengths.length;
       int[] breaks = new int[n];
       int k = 0;
